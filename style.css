@@ -301,13 +301,22 @@ p2 {
     z-index: 10;
 }
 
+/* General styles for larger screens */
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+/* Media query for mobile devices */
 @media (max-width: 768px) {
-    .container {
-      flex-direction: column;
-    }
-  
-    .element {
-      width: 100%;
-    }
+  .container {
+    flex-direction: column;
   }
+
+  .element {
+    width: 100%;
+  }
+}
+
   
