@@ -300,3 +300,14 @@ p2 {
     left: 590px;
     z-index: 10;
 }
+
+@media (max-width: 768px) {
+    .container {
+      flex-direction: column;
+    }
+  
+    .element {
+      width: 100%;
+    }
+  }
+  
