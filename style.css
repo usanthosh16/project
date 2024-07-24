@@ -2,6 +2,24 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+
+img {
+    max-width: 100%;
+    height: auto;
+  }
+
+html {
+    font-size: 100%;
+  }
+  
+  @media (max-width: 600px) {
+    html {
+      font-size: 90%;
+    }
+  }
+  
+
+
 .header {
     display: flex;
     justify-content: space-between;
@@ -11,6 +29,7 @@ body {
     padding: 10px 20px;
     border-radius: 5px;
     position: relative;
+
 }
 
 .header h1, .header h2, .header h3 {
@@ -23,12 +42,14 @@ body {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
+
 }
 
 .header h3 {
     position: absolute;
     right: 5%;
     transform: translateX(-5%);
+   
 }
 
 .header-plain {
@@ -158,8 +179,8 @@ p2 {
     color:  #003366;;
     padding: 10px 20px;
     border-radius: 5px;
+    
 }
-
 .nav-container3 .nav-item {
     position: absolute;
     top: 550.5px;
@@ -247,7 +268,7 @@ p2 {
 
 .image-container5 {
     position: absolute;
-    top: 85px;
+    top: 95px;
     left: 10px;
     z-index: 10;
 }
@@ -299,17 +320,4 @@ p2 {
     top: 16px;
     left: 590px;
     z-index: 10;
-}
-
- @media only screen and (max-width: 768px) {
-  /* Styles for screens smaller than 768px (mobile) */
-  .header {
-    font-size: 14px; /* Increase font size for better readability */
-  }
-  .nav-container {
-    flex-direction: column; /* Stack navigation items vertically */
-  }
-  .image-container {
-    /* Adjust image sizes or positioning for mobile layout */
-  }
 }
