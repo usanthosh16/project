@@ -3,14 +3,11 @@ body {
 }
 
 
-@media screen and (max-width: 600px) {
-  .responsive-container img {
-    height: 500%;
-    width: auto;
+@media screen and (max-width:600px) {
+    img {
+    max-width: 100%;
+    height: auto;
   }
-}
-
-
 
 html {
     font-size: 100%;
