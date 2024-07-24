@@ -5,8 +5,8 @@ body {
 
 @media screen and (max-width:600px) {
     img {
-    max-width: 120%;
-    height: 100%;
+    max-width: 110%;
+    height: 200%;
   }
 }
 
