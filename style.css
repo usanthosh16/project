@@ -85,7 +85,7 @@ html {
         left: 10%;
         transform: translateX(-10%);
         text-transform: capitalize;
-        top: -20px;
+        top: -18px;
         font-size: 20px;
     }
 }
@@ -179,12 +179,12 @@ hr {
       position: absolute;
       top: 170px; 
       left: 3px; 
-      font-size: 46%;
+      font-size: 45.5%;
       flex-wrap: nowrap;
     }
   
     .nav-item {
-      margin:  o 4.1px; 
+      margin:  o 4px; 
     }
   }
   
@@ -248,7 +248,7 @@ p1{
         top: 285px;
         left: 15px;
         z-index: 10; 
-        font-size: 14px;
+        font-size: 13px;
     }
 }
 
@@ -267,7 +267,7 @@ p1{
     border-radius: 5px;
     @media screen and (max-width:600px) {
         position: absolute;
-        top: 465px;
+        top: 460px;
         left: 70px;
         z-index: 10; 
         font-size: 15px;
@@ -291,7 +291,7 @@ p1{
     border-radius: 5px;
     @media screen and (max-width:600px) {
         position: absolute;
-        top: 480px;
+        top: 475px;
         left: 190px; 
         z-index: 10; 
         font-size: 14.5px;
@@ -337,7 +337,7 @@ p1{
         top: 290px;
         left: 0px;
         margin: 0;
-        width: 95%;
+        width: 93%;
     }
 }
 
@@ -536,8 +536,8 @@ p1{
         left: 365px;
         z-index: 10;
         img {
-            max-width: 50%;
-            height: 50%;
+            max-width: 70%;
+            height: 70%;
           }
     }
 }
