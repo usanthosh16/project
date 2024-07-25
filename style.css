@@ -86,7 +86,7 @@ html {
         transform: translateX(-10%);
         text-transform: capitalize;
         top: -20px;
-        font-size: 25px;
+        font-size: 20px;
     }
 }
 
@@ -105,8 +105,8 @@ html {
     @media screen and (max-width:600px) {
         font-size: 15px;
         position: absolute;
-        right: 10%;
-        transform: translateX(-10%);
+        right: 1%;
+        transform: translateX(-1%);
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -127,8 +127,8 @@ html {
     @media screen and (max-width:600px) {
         font-size: 8px;
         position: absolute;
-        right: 10%;
-        transform: translateX(-10%);
+        right: 1%;
+        transform: translateX(-1%);
         top: -30px;
     }
 }
@@ -143,8 +143,8 @@ html {
     @media screen and (max-width:600px) {
         font-size: 13px;
         position: absolute;
-        right: 12%;
-        transform: translateX(-12%);
+        right: 3%;
+        transform: translateX(-3%);
         top: -30px;
     }
 }
@@ -184,7 +184,7 @@ hr {
     }
   
     .nav-item {
-      margin:  o 5px; 
+      margin:  o 4.1px; 
     }
   }
   
@@ -267,8 +267,8 @@ p1{
     border-radius: 5px;
     @media screen and (max-width:600px) {
         position: absolute;
-        top: 480px;
-        left: 60px;
+        top: 465px;
+        left: 70px;
         z-index: 10; 
         font-size: 15px;
         padding: 5px 10px;
@@ -291,8 +291,8 @@ p1{
     border-radius: 5px;
     @media screen and (max-width:600px) {
         position: absolute;
-        top: 495px;
-        left: 200px; 
+        top: 480px;
+        left: 190px; 
         z-index: 10; 
         font-size: 14.5px;
         display: flex;
@@ -334,7 +334,7 @@ p1{
         background-color: #003366;
         color: #003366;
         padding: 100px 48px;
-        top: 320px;
+        top: 290px;
         left: 0px;
         margin: 0;
         width: 95%;
@@ -350,7 +350,7 @@ p1{
     color: #ffffff;
     @media screen and (max-width:600px) {
         position: absolute;
-        top: 550px;
+        top: 510px;
         left: 10px;
         z-index: 10;
         font-size: 20px;
@@ -366,7 +366,7 @@ p1{
     color: #ffffff;
     @media screen and (max-width:600px) {
         position: absolute;
-        top: 550px;
+        top: 510px;
         left: 150px;
         z-index: 10;
         font-size: 20px;
@@ -382,7 +382,7 @@ p1{
     color: #ffffff;
     @media screen and (max-width:600px) {
         position: absolute;
-        top: 550px;
+        top: 510px;
         left: 235px;
         z-index: 10;
         font-size: 20px;
@@ -396,11 +396,11 @@ p1{
     z-index: 10;
     @media screen and (max-width:600px) {
         position: absolute;
-        top: 620px;
-        left: 43px;
+        top: 580px;
+        left: 53px;
         z-index: 10;
         img {
-            max-width: 70%;
+            max-width: 60%;
             height: auto;
           }
     }
@@ -413,12 +413,12 @@ p1{
     z-index: 10;
     @media screen and (max-width:600px) {
         position: absolute;
-        top: 620px;
+        top: 580px;
         left: 155px;
         z-index: 10;
         img {
-            max-width: 70%;
-            height: 105px;
+            max-width: 60%;
+            height: 90px;
           }
     }
 }
@@ -430,12 +430,12 @@ p1{
     z-index: 10;
     @media screen and (max-width:600px) {
         position: absolute;
-        top: 620px;
-        left: 268px;
+        top: 580px;
+        left: 257px;
         z-index: 10;
         img {
-            max-width: 70%;
-            height: 70;
+            max-width: 60%;
+            height: 90px;
           }
     }
 }
@@ -467,8 +467,8 @@ p1{
 @media screen and (max-width:600px) {
     .image-container13 {
         position: absolute;
-        top: 47px;
-        right: 150px;
+        top: 46px;
+        right: 105px;
         z-index: 10;
     }
 }
@@ -515,7 +515,7 @@ p1{
     z-index: 10;
     @media screen and (max-width:600px) {
         position: absolute;
-        top: 660px;
+        top: 615px;
         left: 15px;
         z-index: 10;
         img {
@@ -532,8 +532,8 @@ p1{
     z-index: 10;
     @media screen and (max-width:600px) {
         position: absolute;
-        top: 660px;
-        left: 379px;
+        top: 615px;
+        left: 365px;
         z-index: 10;
         img {
             max-width: 50%;
